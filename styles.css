@@ -278,17 +278,22 @@ body.dark .btn.btn-ghost { background: rgba(255,255,255,0.12); color: #fff; }
   display: inline-grid; place-items: center;
   width: 44px; height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #fff;
-  font-size: 22px;
+  background: rgba(0,122,255,0.12);
+  color: var(--accent);
   margin-bottom: 12px;
-  box-shadow: 0 6px 16px rgba(0,122,255,0.30);
 }
-.card.gradient-rose .icon { background: linear-gradient(135deg, #ff6b9d, #ff8e7a); box-shadow: 0 6px 16px rgba(255,107,157,0.30);}
-.card.gradient-mint .icon { background: linear-gradient(135deg, #34c759, #5ac8fa); box-shadow: 0 6px 16px rgba(52,199,89,0.30);}
-.card.gradient-peach .icon { background: linear-gradient(135deg, #ff9500, #ffcc00); box-shadow: 0 6px 16px rgba(255,149,0,0.30);}
-.card.gradient-violet .icon { background: linear-gradient(135deg, #af52de, #5856d6); box-shadow: 0 6px 16px rgba(175,82,222,0.30);}
-.card.gradient-rouge .icon { background: linear-gradient(135deg, #ff3b30, #ff9500); box-shadow: 0 6px 16px rgba(255,59,48,0.30);}
+.card .icon svg { width: 24px; height: 24px; display: block; }
+.card.gradient-rose .icon { background: rgba(255,107,157,0.14); color: #e64c87; }
+.card.gradient-mint .icon { background: rgba(52,199,89,0.14); color: #2ba84a; }
+.card.gradient-peach .icon { background: rgba(255,149,0,0.14); color: #d97f00; }
+.card.gradient-violet .icon { background: rgba(175,82,222,0.14); color: #9d3fc7; }
+.card.gradient-rouge .icon { background: rgba(255,59,48,0.14); color: #e62a20; }
+body.dark .card .icon { background: rgba(10,132,255,0.22); color: #5ac8fa; }
+body.dark .card.gradient-rose .icon { background: rgba(255,107,157,0.22); color: #ff8eb5; }
+body.dark .card.gradient-mint .icon { background: rgba(52,199,89,0.22); color: #5bd87a; }
+body.dark .card.gradient-peach .icon { background: rgba(255,149,0,0.22); color: #ffae44; }
+body.dark .card.gradient-violet .icon { background: rgba(175,82,222,0.22); color: #c478ee; }
+body.dark .card.gradient-rouge .icon { background: rgba(255,59,48,0.22); color: #ff7a72; }
 .card ul { padding-left: 18px; margin: 8px 0 0; }
 .card ul li { margin: 6px 0; }
 
